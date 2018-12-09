@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Weather1_0.jnlp">
+  <information>
+    <title>Weather1.0</title>
+    <vendor>Unknown</vendor>
+    <description>Weather1.0</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Weather1_0.jar" size="7754" download="eager" />
+    <jar href="annotations-16.0.2.jar" size="18538" download="eager" />
+    <jar href="gson-2.8.5.jar" size="241622" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="weather.model.Main"  name="Weather1.0" />
+  <update check="background"/>
+</jnlp>
